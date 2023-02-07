@@ -17,7 +17,7 @@ struct BreathCounterApp: App {
     
     init() {
         let config = AppConfig()
-        let appStore = AppStore(dataService: YogaDataService())
+        let appStore = AppStore(dataService: MockDataService())
         let visualObs = AudioVisualObserver()
         let streamObs = AudioStreamObserver(store: appStore, with: visualObs)
         self._streamObserver = StateObject(wrappedValue: streamObs)
