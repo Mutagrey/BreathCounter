@@ -10,6 +10,7 @@
 </p>
 
 <p align="row">
+<img src= "https://github.com/Mutagrey/2048Game/blob/main/Screens/demo.gif" width="272" >
 <img src= "https://github.com/Mutagrey/2048Game/blob/main/Screens/screen1.png" width="272" >
 <img src= "https://github.com/Mutagrey/2048Game/blob/main/Screens/screen2.png" width="272" >
 <img src= "https://github.com/Mutagrey/2048Game/blob/main/Screens/screen3.png" width="272" >
