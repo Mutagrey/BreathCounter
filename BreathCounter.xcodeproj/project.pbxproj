@@ -21,6 +21,7 @@
 		41CD21A7299242FF009D65DB /* screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 41CD21A2299242FF009D65DB /* screen1.png */; };
 		41CD21A8299242FF009D65DB /* screen4.png in Resources */ = {isa = PBXBuildFile; fileRef = 41CD21A3299242FF009D65DB /* screen4.png */; };
 		41CD21AA29924434009D65DB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 41CD21A929924434009D65DB /* Icon.png */; };
+		41CD21AD299245B4009D65DB /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41CD21AC299245B4009D65DB /* demo.gif */; };
 		41EDC23F2980552E00796BD2 /* BreathCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC23E2980552E00796BD2 /* BreathCounterApp.swift */; };
 		41EDC2412980552E00796BD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC2402980552E00796BD2 /* ContentView.swift */; };
 		41EDC2432980552F00796BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EDC2422980552F00796BD2 /* Assets.xcassets */; };
@@ -63,7 +64,7 @@
 		41CD21A2299242FF009D65DB /* screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen1.png; sourceTree = "<group>"; };
 		41CD21A3299242FF009D65DB /* screen4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen4.png; sourceTree = "<group>"; };
 		41CD21A929924434009D65DB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		41CD21AB29924461009D65DB /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
+		41CD21AC299245B4009D65DB /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		41EDC23B2980552E00796BD2 /* BreathCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EDC23E2980552E00796BD2 /* BreathCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathCounterApp.swift; sourceTree = "<group>"; };
 		41EDC2402980552E00796BD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -152,7 +153,7 @@
 				41CD21A0299242FF009D65DB /* screen3.png */,
 				41CD21A1299242FF009D65DB /* screen2.png */,
 				41CD21A3299242FF009D65DB /* screen4.png */,
-				41CD21AB29924461009D65DB /* demo.mp4 */,
+				41CD21AC299245B4009D65DB /* demo.gif */,
 				41CD21A929924434009D65DB /* Icon.png */,
 			);
 			path = Screens;
@@ -328,6 +329,7 @@
 				41CD21A7299242FF009D65DB /* screen1.png in Resources */,
 				41CD21A5299242FF009D65DB /* screen3.png in Resources */,
 				41EDC2432980552F00796BD2 /* Assets.xcassets in Resources */,
+				41CD21AD299245B4009D65DB /* demo.gif in Resources */,
 				41CD21A6299242FF009D65DB /* screen2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
