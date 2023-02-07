@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Mutagrey/BreathCounter/blob/main/Screens/Icon.png">
-    <img style="border-radius: 45px 0.1px 45px 0.1px;" src="/Screens/Icon.jpeg" alt="Logo" width="80" height="80" >
+    <img style="border-radius: 45px 0.1px 45px 0.1px;" src="/Screens/Icon.png" alt="Logo" width="100" height="100" >
   </a>
   <p align="center">
        Listen to your breathing!
