@@ -1,7 +1,7 @@
 # Breath Counter - Listen to your breathings
 <br />
 <p align="center">
-  <a href="https://github.com/Mutagrey/BreathCounter/blob/main/Screens/Icon.jpeg">
+  <a href="https://github.com/Mutagrey/BreathCounter/blob/main/Screens/Icon.png">
     <img style="border-radius: 45px 0.1px 45px 0.1px;" src="/Screens/Icon.jpeg" alt="Logo" width="80" height="80" >
   </a>
   <p align="center">
