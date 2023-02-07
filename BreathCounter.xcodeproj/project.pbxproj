@@ -7,18 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4118B8432981B329001F1B1A /* SessionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4118B8422981B329001F1B1A /* SessionCard.swift */; };
+		41440334298E58AC0006D60C /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41440333298E58AC0006D60C /* AppConfig.swift */; };
+		414403382990DBFE0006D60C /* InteractiveChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414403372990DBFE0006D60C /* InteractiveChart.swift */; };
+		417606B72987F86F00DA5EE5 /* ListenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417606B62987F86F00DA5EE5 /* ListenButton.swift */; };
+		417606B929890C3A00DA5EE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417606B829890C3A00DA5EE5 /* SettingsView.swift */; };
+		417606BB298BA44200DA5EE5 /* BreatheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417606BA298BA44200DA5EE5 /* BreatheView.swift */; };
+		41CB74D02984049600BDA15D /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CB74CF2984049600BDA15D /* ChartData.swift */; };
+		41CB74D229841AC700BDA15D /* BreathingRateChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CB74D129841AC700BDA15D /* BreathingRateChart.swift */; };
+		41CB74D42985771700BDA15D /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CB74D32985771700BDA15D /* TabItemView.swift */; };
 		41EDC23F2980552E00796BD2 /* BreathCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC23E2980552E00796BD2 /* BreathCounterApp.swift */; };
 		41EDC2412980552E00796BD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC2402980552E00796BD2 /* ContentView.swift */; };
 		41EDC2432980552F00796BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EDC2422980552F00796BD2 /* Assets.xcassets */; };
 		41EDC2462980552F00796BD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EDC2452980552F00796BD2 /* Preview Assets.xcassets */; };
+		41EDC253298055AF00796BD2 /* DataServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC24F298055AF00796BD2 /* DataServiceProtocol.swift */; };
+		41EDC254298055AF00796BD2 /* MockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC250298055AF00796BD2 /* MockDataService.swift */; };
+		41EDC255298055AF00796BD2 /* YogaDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC251298055AF00796BD2 /* YogaDataService.swift */; };
+		41EDC25D298055BC00796BD2 /* AudioVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC257298055BC00796BD2 /* AudioVisualizer.swift */; };
+		41EDC25E298055BC00796BD2 /* SignalProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC258298055BC00796BD2 /* SignalProcessing.swift */; };
+		41EDC25F298055BC00796BD2 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC259298055BC00796BD2 /* Styles.swift */; };
+		41EDC260298055BC00796BD2 /* AudioStreamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC25A298055BC00796BD2 /* AudioStreamManager.swift */; };
+		41EDC261298055BC00796BD2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC25B298055BC00796BD2 /* Extensions.swift */; };
+		41EDC262298055BC00796BD2 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC25C298055BC00796BD2 /* Shapes.swift */; };
+		41EDC269298055CB00796BD2 /* Yoga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC266298055CB00796BD2 /* Yoga.swift */; };
+		41EDC26F29805C1800796BD2 /* AudioStreamObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC26E29805C1800796BD2 /* AudioStreamObserver.swift */; };
+		41EDC2722980627F00796BD2 /* AudioVisualObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC2702980627F00796BD2 /* AudioVisualObserver.swift */; };
+		41EDC2732980627F00796BD2 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC2712980627F00796BD2 /* AppStore.swift */; };
+		41EDC2752980639600796BD2 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC2742980639600796BD2 /* PreviewProvider.swift */; };
+		41EDC27929809F6900796BD2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC27829809F6900796BD2 /* Home.swift */; };
+		41EDC27B2981635E00796BD2 /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC27A2981635E00796BD2 /* SessionsView.swift */; };
+		41EDC27D2981645600796BD2 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC27C2981645500796BD2 /* Tab.swift */; };
+		41EDC27F2981648900796BD2 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC27E2981648900796BD2 /* TabBar.swift */; };
+		41EDC281298164BC00796BD2 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC280298164BC00796BD2 /* DetailsView.swift */; };
+		41EDC285298165A900796BD2 /* AudioVisualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC282298165A900796BD2 /* AudioVisualView.swift */; };
+		41EDC2892981667A00796BD2 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EDC2882981667A00796BD2 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4118B8422981B329001F1B1A /* SessionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCard.swift; sourceTree = "<group>"; };
+		41440333298E58AC0006D60C /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		414403372990DBFE0006D60C /* InteractiveChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveChart.swift; sourceTree = "<group>"; };
+		417606B62987F86F00DA5EE5 /* ListenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenButton.swift; sourceTree = "<group>"; };
+		417606B829890C3A00DA5EE5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		417606BA298BA44200DA5EE5 /* BreatheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheView.swift; sourceTree = "<group>"; };
+		41CB74CF2984049600BDA15D /* ChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		41CB74D129841AC700BDA15D /* BreathingRateChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingRateChart.swift; sourceTree = "<group>"; };
+		41CB74D32985771700BDA15D /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
 		41EDC23B2980552E00796BD2 /* BreathCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreathCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EDC23E2980552E00796BD2 /* BreathCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathCounterApp.swift; sourceTree = "<group>"; };
 		41EDC2402980552E00796BD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41EDC2422980552F00796BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41EDC2452980552F00796BD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41EDC24F298055AF00796BD2 /* DataServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServiceProtocol.swift; sourceTree = "<group>"; };
+		41EDC250298055AF00796BD2 /* MockDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDataService.swift; sourceTree = "<group>"; };
+		41EDC251298055AF00796BD2 /* YogaDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YogaDataService.swift; sourceTree = "<group>"; };
+		41EDC257298055BC00796BD2 /* AudioVisualizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVisualizer.swift; sourceTree = "<group>"; };
+		41EDC258298055BC00796BD2 /* SignalProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalProcessing.swift; sourceTree = "<group>"; };
+		41EDC259298055BC00796BD2 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		41EDC25A298055BC00796BD2 /* AudioStreamManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioStreamManager.swift; sourceTree = "<group>"; };
+		41EDC25B298055BC00796BD2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		41EDC25C298055BC00796BD2 /* Shapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		41EDC266298055CB00796BD2 /* Yoga.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Yoga.swift; sourceTree = "<group>"; };
+		41EDC26E29805C1800796BD2 /* AudioStreamObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStreamObserver.swift; sourceTree = "<group>"; };
+		41EDC2702980627F00796BD2 /* AudioVisualObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVisualObserver.swift; sourceTree = "<group>"; };
+		41EDC2712980627F00796BD2 /* AppStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		41EDC2742980639600796BD2 /* PreviewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		41EDC27829809F6900796BD2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		41EDC27A2981635E00796BD2 /* SessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
+		41EDC27C2981645500796BD2 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		41EDC27E2981648900796BD2 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		41EDC280298164BC00796BD2 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		41EDC282298165A900796BD2 /* AudioVisualView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVisualView.swift; sourceTree = "<group>"; };
+		41EDC2882981667A00796BD2 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +92,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4144032F298D83230006D60C /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				41CB74D32985771700BDA15D /* TabItemView.swift */,
+				41EDC27E2981648900796BD2 /* TabBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		41440330298D833C0006D60C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				417606BA298BA44200DA5EE5 /* BreatheView.swift */,
+				417606B62987F86F00DA5EE5 /* ListenButton.swift */,
+				41EDC2882981667A00796BD2 /* TimerView.swift */,
+				4118B8422981B329001F1B1A /* SessionCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		41440331298D83450006D60C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				41EDC2402980552E00796BD2 /* ContentView.swift */,
+				41EDC27829809F6900796BD2 /* Home.swift */,
+				41EDC27A2981635E00796BD2 /* SessionsView.swift */,
+				417606B829890C3A00DA5EE5 /* SettingsView.swift */,
+				41EDC280298164BC00796BD2 /* DetailsView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		41440332298D837B0006D60C /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				41EDC282298165A900796BD2 /* AudioVisualView.swift */,
+				41CB74D129841AC700BDA15D /* BreathingRateChart.swift */,
+				414403372990DBFE0006D60C /* InteractiveChart.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
 		41EDC2322980552E00796BD2 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +154,12 @@
 			isa = PBXGroup;
 			children = (
 				41EDC23E2980552E00796BD2 /* BreathCounterApp.swift */,
-				41EDC2402980552E00796BD2 /* ContentView.swift */,
+				41EDC263298055CB00796BD2 /* Models */,
+				41EDC276298097F300796BD2 /* Helpers */,
+				41EDC256298055BC00796BD2 /* Utils */,
+				41EDC24D298055AF00796BD2 /* DataService */,
+				41EDC26D29805BF800796BD2 /* Observers */,
+				41EDC27729809C3200796BD2 /* Views */,
 				41EDC2422980552F00796BD2 /* Assets.xcassets */,
 				41EDC2442980552F00796BD2 /* Preview Content */,
 			);
@@ -65,6 +172,69 @@
 				41EDC2452980552F00796BD2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41EDC24D298055AF00796BD2 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				41EDC24F298055AF00796BD2 /* DataServiceProtocol.swift */,
+				41EDC250298055AF00796BD2 /* MockDataService.swift */,
+				41EDC251298055AF00796BD2 /* YogaDataService.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		41EDC256298055BC00796BD2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				41EDC25A298055BC00796BD2 /* AudioStreamManager.swift */,
+				41EDC257298055BC00796BD2 /* AudioVisualizer.swift */,
+				41EDC258298055BC00796BD2 /* SignalProcessing.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		41EDC263298055CB00796BD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41CB74CF2984049600BDA15D /* ChartData.swift */,
+				41EDC266298055CB00796BD2 /* Yoga.swift */,
+				41EDC27C2981645500796BD2 /* Tab.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41EDC26D29805BF800796BD2 /* Observers */ = {
+			isa = PBXGroup;
+			children = (
+				41EDC2712980627F00796BD2 /* AppStore.swift */,
+				41440333298E58AC0006D60C /* AppConfig.swift */,
+				41EDC26E29805C1800796BD2 /* AudioStreamObserver.swift */,
+				41EDC2702980627F00796BD2 /* AudioVisualObserver.swift */,
+			);
+			path = Observers;
+			sourceTree = "<group>";
+		};
+		41EDC276298097F300796BD2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				41EDC259298055BC00796BD2 /* Styles.swift */,
+				41EDC25C298055BC00796BD2 /* Shapes.swift */,
+				41EDC25B298055BC00796BD2 /* Extensions.swift */,
+				41EDC2742980639600796BD2 /* PreviewProvider.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		41EDC27729809C3200796BD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41440331298D83450006D60C /* Main */,
+				4144032F298D83230006D60C /* Navigation */,
+				41440332298D837B0006D60C /* Charts */,
+				41440330298D833C0006D60C /* Components */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +279,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 41EDC2322980552E00796BD2;
 			productRefGroup = 41EDC23C2980552E00796BD2 /* Products */;
@@ -137,8 +308,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41EDC260298055BC00796BD2 /* AudioStreamManager.swift in Sources */,
+				414403382990DBFE0006D60C /* InteractiveChart.swift in Sources */,
+				41440334298E58AC0006D60C /* AppConfig.swift in Sources */,
+				41EDC285298165A900796BD2 /* AudioVisualView.swift in Sources */,
+				41EDC2732980627F00796BD2 /* AppStore.swift in Sources */,
+				41CB74D42985771700BDA15D /* TabItemView.swift in Sources */,
+				4118B8432981B329001F1B1A /* SessionCard.swift in Sources */,
+				417606BB298BA44200DA5EE5 /* BreatheView.swift in Sources */,
+				41EDC25F298055BC00796BD2 /* Styles.swift in Sources */,
+				41EDC2722980627F00796BD2 /* AudioVisualObserver.swift in Sources */,
+				41EDC25D298055BC00796BD2 /* AudioVisualizer.swift in Sources */,
+				41EDC254298055AF00796BD2 /* MockDataService.swift in Sources */,
+				41EDC27D2981645600796BD2 /* Tab.swift in Sources */,
+				41EDC2892981667A00796BD2 /* TimerView.swift in Sources */,
+				41EDC255298055AF00796BD2 /* YogaDataService.swift in Sources */,
+				41EDC2752980639600796BD2 /* PreviewProvider.swift in Sources */,
 				41EDC2412980552E00796BD2 /* ContentView.swift in Sources */,
+				41EDC27929809F6900796BD2 /* Home.swift in Sources */,
+				41EDC25E298055BC00796BD2 /* SignalProcessing.swift in Sources */,
+				41EDC253298055AF00796BD2 /* DataServiceProtocol.swift in Sources */,
+				41EDC269298055CB00796BD2 /* Yoga.swift in Sources */,
+				41CB74D02984049600BDA15D /* ChartData.swift in Sources */,
+				417606B72987F86F00DA5EE5 /* ListenButton.swift in Sources */,
 				41EDC23F2980552E00796BD2 /* BreathCounterApp.swift in Sources */,
+				41EDC261298055BC00796BD2 /* Extensions.swift in Sources */,
+				41EDC281298164BC00796BD2 /* DetailsView.swift in Sources */,
+				41EDC27B2981635E00796BD2 /* SessionsView.swift in Sources */,
+				41CB74D229841AC700BDA15D /* BreathingRateChart.swift in Sources */,
+				41EDC27F2981648900796BD2 /* TabBar.swift in Sources */,
+				41EDC26F29805C1800796BD2 /* AudioStreamObserver.swift in Sources */,
+				417606B929890C3A00DA5EE5 /* SettingsView.swift in Sources */,
+				41EDC262298055BC00796BD2 /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +396,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,11 +471,14 @@
 				DEVELOPMENT_TEAM = 6AZ8WMLP5K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "need mic to listen breathings";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +503,14 @@
 				DEVELOPMENT_TEAM = 6AZ8WMLP5K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "need mic to listen breathings";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
